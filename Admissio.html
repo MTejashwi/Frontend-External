@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Admission Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+        }
+
+        form {
+            background-color: white;
+            width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<form>
+    <h2>Student Admission Form</h2>
+
+    Name:
+    <input type="text" placeholder="Enter your name" required>
+
+    Email:
+    <input type="email" placeholder="Enter email" required>
+
+    Password:
+    <input type="password" placeholder="Enter password">
+
+    Date of Birth:
+    <input type="date">
+
+    Gender:
+    <select>
+        <option>Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+    </select>
+
+    Phone Number:
+    <input type="tel" placeholder="Enter phone number">
+
+    Course:
+    <select>
+        <option>Select Course</option>
+        <option>B.Tech</option>
+        <option>BCA</option>
+        <option>MCA</option>
+        <option>MBA</option>
+    </select>
+
+    Address:
+    <textarea placeholder="Enter address"></textarea>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
